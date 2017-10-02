@@ -12,3 +12,4 @@ Git version for l33tcode
 
 #prod mode:
 * soon!
+* Let's begin the show
