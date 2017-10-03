@@ -6,11 +6,19 @@
   "version": "0.0.1",
 
   "browser_action": {
-   "default_icon": "icon.png",
+   "default_icon": "icons/icon.png",
    "default_popup": "index.html",
    "default_title": "Click to active LeetHub"
   },
   "permissions": [
    "activeTab"
-   ]
+   ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["lib/jquery-3.2.1.min.js","lib/hello.all.js", "src/content.js"]
+    }
+  ]
 }
