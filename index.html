@@ -2,18 +2,19 @@
 <html>
   <head>
     <title>LeetHub</title>
-    <script src="src/popup.js"></script>
-    <script src="lib/hello.all.js"></script>
+    <!--<script src="lib/hello.all.js"></script>-->
     <script>
-        hello.init({
-            github: ""     // not real id
-        });
+//        hello.init({
+//            github: "da1d7c12a3ab20decba5"     // not real id
+//        }, {redirect_uri: 'redirect.html'});
     </script>
+    <script src="src/popup.js"></script>
   </head>
   <body>
     <h1>Welcome to LeetHub!</h1>
     <b> LeetHub will sync your leetcode submissions into github</b>
     <button id="checkPage">Login with Github</button>
-    <button id="github" onclick="hello('github').login()">Github</button>
+    <button id="github">Github</button>
+
   </body>
 </html>
